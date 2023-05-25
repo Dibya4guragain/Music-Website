@@ -1,0 +1,96 @@
+* {
+   
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* .singer-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/singer.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;   
+} */
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.description{
+    width: 15rem;
+    padding-left: 5rem;
+}
+
+h1 {
+    text-align: end;
+    padding: 2rem;
+}
+
+.menu>ul>li>a {
+   
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+   
+}
+.menu>ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#icon, #icon1, #icon2, #icon3{
+    width: 2rem;
+    /* border-radius: 50%; */
+    height: auto;
+    cursor: pointer;
+}
+
+.song{
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    gap: 10px;
+    justify-content: flex-end;
+    /* margin-top: 10%; */
+    margin-right: 5rem;
+    padding-top: 10px;
+    
+}
+.song_flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.music_list_title{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    justify-content: flex-end;
+    /* margin-top: 5%; */
+    margin-right: 5rem;
+}
+
+.menu>ul>li>a:hover{
+color: green;
+}
